@@ -1,0 +1,90 @@
+@import url('https://fonts.cdnfonts.com/css/switzer'); 
+
+html {
+    font-size: 14px;
+}
+div.css-1ex6qxy.e1f1d6gn0 {
+    position: absolute;
+}
+button.css-19rxjzo.ef3psqc11 {
+    position: absolute;
+    margin-top: 0px;
+    width: 600px;
+}
+div.modebar-group {
+    visibility: hidden;
+}
+
+button.css-e370rw.e1vs0wn31 {
+    visibility: hidden;
+}
+/*body*/
+div.css-ffhzg2 {
+    background-color: white;
+}
+span.css-10trblm.e1nzilvr1 {
+    position: absolute;
+    top: -100px;
+    left: -220px;
+    background-image: linear-gradient(45deg,#4a6c2f 45%, #7cad3e 35%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+span.css-10trblm.e1nzilvr1:after {
+    content: "";
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    background-color: #fff; 
+    animation: container-slide 1s forwards;
+}
+@keyframes container-slide {
+    0% {
+        right: 0%; 
+    }
+    100% {
+        right: -100%; /* Put container off the screen */
+    }
+}
+
+img {
+    position: absolute;
+    top: -110px;
+    left: -260px;
+    animation: image-fade 3s ease;
+}
+@keyframes image-fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    
+}
+
+/*Box on the top*/
+header.css-1avcm0n {
+    width: 0px;
+    background-color: white;
+}
+
+/*random link*/
+svg {
+    visibility: hidden;
+}
+
+a {
+    visibility: hidden;
+}
+@keyframes test {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
